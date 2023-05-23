@@ -1,0 +1,6 @@
+﻿[*.cs]
+
+# These suggetions are incorrectly reported for the preview features that
+# are being demoed, so we disable them for now.
+dotnet_diagnostic.CA1050.severity = none
+dotnet_diagnostic.CA1822.severity = none
